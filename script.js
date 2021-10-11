@@ -1,10 +1,9 @@
 let weather = {
-	"apiKey": "e185d3cc48ce31288daa510b96d4754f",
+	"apiKey": " YOUR API KEY HERE",
 	fetchWeather: function (city){
 		// const city = "kolkata"
 		fetch(
-			"https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=e185d3cc48ce31288daa510b96d4754f"
-		).then((response) => {
+			"https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid="+ this.apiKey;
 			if(!response.ok){
 				alert("No weather found");
 				throw new Error("No weather found");
