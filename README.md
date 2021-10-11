@@ -14,4 +14,6 @@
 
 
 # API used?
- ## For the purpose of this project, I used the [OpenWeather API](https://openweathermap.org/api)
+ ## For the purpose of this project, [OpenWeather API](https://openweathermap.org/api) was used. 
+ ## Along with the OpenWeather API, for the background images, [UnSplash API](https://source.unsplash.com/) was used
+ 
